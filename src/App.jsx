@@ -1117,7 +1117,7 @@ export default function App() {
                   <Printer className="w-4 h-4" />
                 </button>
                 <a
-                  href="/RESUME-PRAMENDRA_SHARMA.pdf"
+                  href={`${import.meta.env.BASE_URL}RESUME-PRAMENDRA_SHARMA.pdf`}
                   download="RESUME-PRAMENDRA_SHARMA.pdf"
                   className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg transition-colors shadow-sm ${
                     darkMode 
